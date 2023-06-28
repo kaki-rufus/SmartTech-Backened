@@ -1,0 +1,12 @@
+# interfaces(5) file used by ifup(8) and ifdown(8)
+# Include files from /etc/network/interfaces.d:
+source /etc/network/interfaces.d/*
+
+
+auto wlp58s0
+iface wlp58s0 inet dhcp
+    wpa-essid !_nomap
+    wpa-psk 2d14dd4da0e73ed11cc1c2720b8fea30515724dbad125c899dc8e05508f78c19
+    wpa-scan-ssid 1
+
+
